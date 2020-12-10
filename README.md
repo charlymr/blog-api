@@ -20,23 +20,23 @@ It should be use with Feather
 ## Available Services
 
 ### BlogPost
-http://localhost:8080/api/v1/posts/?limit=10&page=1&title=AnyTextToSeach
-http://localhost:8080/api/v1/posts
-http://localhost:8080/api/v1/posts/<#BlogPost ID#>/
-http://localhost:8080/api/v1/posts/<#BlogPost ID#>/image
+- http://localhost:8080/api/v1/posts/?limit=10&page=1&title=AnyTextToSeach
+- http://localhost:8080/api/v1/posts
+- http://localhost:8080/api/v1/posts/<#BlogPost ID#>/
+- http://localhost:8080/api/v1/posts/<#BlogPost ID#>/image
 
 ### Authors
-http://localhost:8080/api/v1/authors/?limit=10&page=1&name=AnyTextToSeach
-http://localhost:8080/api/v1/authors
-http://localhost:8080/api/v1/authors/<#Authors ID#>/
-http://localhost:8080/api/v1/authors/<#Authors ID#>/image
+- http://localhost:8080/api/v1/authors/?limit=10&page=1&name=AnyTextToSeach
+- http://localhost:8080/api/v1/authors
+- http://localhost:8080/api/v1/authors/<#Authors ID#>/
+- http://localhost:8080/api/v1/authors/<#Authors ID#>/image
 
 ### Categories
-http://localhost:8080/api/v1/categories/?limit=10&page=1&title=AnyTextToSeach
-http://localhost:8080/api/v1/categories
-http://localhost:8080/api/v1/categories/<#Category ID#>/
-http://localhost:8080/api/v1/categories/<#Category ID#>/image
+- http://localhost:8080/api/v1/categories/?limit=10&page=1&title=AnyTextToSeach
+- http://localhost:8080/api/v1/categories
+- http://localhost:8080/api/v1/categories/<#Category ID#>/
+- http://localhost:8080/api/v1/categories/<#Category ID#>/image
 
 ### Links
-http://localhost:8080/api/v1/links/?limit=10&page=1&name=AnyTextToSeach
-http://localhost:8080/api/v1/links/Links
+- http://localhost:8080/api/v1/links/?limit=10&page=1&name=AnyTextToSeach
+- http://localhost:8080/api/v1/links/Links
