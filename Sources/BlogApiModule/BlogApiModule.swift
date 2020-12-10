@@ -29,13 +29,13 @@ open class BlogApiModule : ViperModule {
         
         /// Authors
         /// 
-        // http://hostname/api/v1/posts/?limit=10&page=1&name=AnyTextToSeach
+        // http://hostname/api/v1/authors/?limit=10&page=1&name=AnyTextToSeach
         try BlogAuthorModel.searchRoute(object: "authors", searchKey: "name", app: app)
         
-        // http://hostname/api/v1/posts/<Authors ID>/
+        // http://hostname/api/v1/authors/<Authors ID>/
         try BlogAuthorModel.objectByIDRoute(object: "authors", app: app)
         
-        // http://hostname/api/v1/posts/<Authors ID>/image
+        // http://hostname/api/v1/authors/<Authors ID>/image
         try BlogAuthorModel.objectImageByIDRoute(object: "authors", app: app)
         
         /// Categories
